@@ -1,12 +1,10 @@
-pip3 install ffmpeg
-pip3 install pillow
-pip install pydub
-pip3 install utils
-pip install ffmpeg
-pip install pydub
-pip install SpeechRecognition
-pip install moviepy
-pip install sk-video
-pip install Pillow
-pip install --upgrade google-cloud-speech
-pip3 install google-cloud-storage
+ffmpeg
+pillow
+pydub
+utils
+SpeechRecognition
+moviepy
+sk-video
+ --upgrade google-cloud-speech
+google-cloud-storage
+opencv-python
