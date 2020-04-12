@@ -1,7 +1,8 @@
 # VideoSummarizer
 
 
-I. INTRODUCTION
+I.INTRODUCTION
+
 The main intention of this is to help students and working professionals in taking up online courses to have a reference handout which they can use to revise before the examination. With a growing trend in enrolment for courses online, be it e- learning sites like Udemy, Coursera, Udacity etc. or recorded classroom videos available through college platforms, a need for a summarised handbook always arises. Our main intention through the project is to provide this summarised handbook to help them better prepare and leverage it to the fullest. We have taken a modular approach to address the given problem. Mod- ules include - Transcriptor, Summariser, Segmenter, Ranking Algorithm, Condenser, Chalkboard Representation Extractor and PDF Generator.
 
 A. Transcriptor
