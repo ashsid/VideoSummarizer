@@ -1,7 +1,7 @@
 # VideoSummarizer
 
 Setup :
-Clone the Repository
+Clone the Repository\n
 Create a datadir folder in this repository 
 Copy paste the video for which you need the Summarised PDF in the datadir
 Run "pip3 install -r requirements.txt" at the head of this repository , not datadir
