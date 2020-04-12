@@ -5,7 +5,7 @@ Clone the Repository<br/>
 Create a datadir folder in this repository <br/>
 Copy paste the video for which you need the Summarised PDF in the datadir<br/>
 Run "pip3 install -r requirements.txt" at the head of this repository , not datadir<br/>
-Once that is done Run - "python3 finalCode.py <VideoTile> <options>" at the head of this repository , not datadir<br/>
+Once that is done Run - "python3 finalCode.py VideoTile options" at the head of this repository , not datadir<br/>
   Video title is the title of the video that you just uploaded to the datadir<br/>
   Options is either '1' or '2' : '2' when PPT's in the video and '1' when Lecture handwritten notes on Green Board.<br/>
 Once this finishes running you should be able to find a summary.pdf in the datadir along with all the other artefacts that will help you with the video.<br/>
