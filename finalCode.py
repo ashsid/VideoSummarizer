@@ -217,9 +217,9 @@ def SegmentVideo(VideoTitle):
     print(nonsilent_segments)
     all_segments = silent_segments+nonsilent_segments
     #print(all_segments)
-    print(len(all_segments))
-    if len(all_segments)==0:
-        os.rename(VideoTitle,"segments1.mp4")
+    #print(len(all_segments))
+    if len(silent_segments)==0:
+        os.rename(VideoTitle,"nonsilent_segments1.mp4")
     else:
         with open('manifest.csv', 'w', newline='') as file:
             writer = csv.writer(file)
