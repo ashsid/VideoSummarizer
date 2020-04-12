@@ -110,7 +110,8 @@ def SegmentVideo(VideoTitle):
     fps = cap.get(cv2.CAP_PROP_FPS)      # OpenCV2 version 2 used "CV_CAP_PROP_FPS"
     frame_count = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
     duration = frame_count/fps
-
+    print("-------VIDEO DURATION---------")
+    print(duration)
     filepath = 'silence_detection.txt'
     txt=[]
     with open(filepath) as fp:
@@ -201,9 +202,9 @@ def SegmentVideo(VideoTitle):
         extra_segment=[]
         if(float(last_silent_segment[1])<duration):
             extra_segment.append(last_silent_segment[1])
-            extra_segment.append(duration)
-            extra_dur = float(last_silent_segment[1])-float(duration)
-            extra_segment.append(str(dur))
+            extra_segment.append(str(duration))
+            extra_dur = float(duration)-float(last_silent_segment[1])
+            extra_segment.append(str(extra_dur))
             nonsilent_segments.append(extra_segment)
     #get the first segment in case of single segment
     if len(silent_segments)==1:
